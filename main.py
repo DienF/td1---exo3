@@ -1,16 +1,12 @@
 input.onButtonPressed(Button.A, function () {
-    if (nb < 10) {
+    while (nb < 11) {
         nb += 1
         basic.showNumber(nb)
     }
 })
 input.onButtonPressed(Button.B, function () {
-    if (nb >= 10) {
-    	
-    } else {
-        nb += 1
-        basic.showNumber(nb)
-    }
+    break;
+continue;
 })
 let nb = 0
 nb = 1
